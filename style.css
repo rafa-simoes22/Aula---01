@@ -1,63 +1,64 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body{
+body {
     background-color: #FFEBEB;
 }
-nav{
+nav {
     padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.partedalogo{
+.partedalogo {
     display: flex;
     align-items: center;
 }
-.partedalogo img{
+.partedalogo img {
     width: 80px;
     margin-right: 20px;
 }
-ul{
+ul {
     display: flex;
     gap: 30px;
     list-style: none;
 }
-a{
+a {
     color: #111;
     text-decoration: none;
     font-size: 25px;
 }
-h1{
+h1 {
     font-size: 30px;
 }
-section{
+section {
     width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     height: 80vh;
 }
-.partedotexto{
+.partedotexto {
     width: 50%;
     text-align: center;
-    padding: 50px
+    padding: 50px;
 }
-.partedaimagem{
+.partedaimagem {
     width: 50%;
 }
-.partedaimagem img{
+.partedaimagem img {
     width: 100%;
 }
-.botoes{
+.botoes {
     margin: 20px 0;
     display: flex;
     gap: 40px;
     justify-content: center;
 }
-button{
+button {
     padding: 10px 30px;
     border: none;
     background-color: #ed6cad;
